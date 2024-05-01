@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+
+$highlight: #FFFFFF
+$primary: #BCC5CE
+$focus: #929EAD
+$relax: #3E83CF
+$centered: #485197
+$secondary: #1A2841
+
+$breakpoints: (sm: 600px, md: 900px, lg: 1370px, sl: 1536px)
+@mixin mobil-firts($brekpoint)
+    @media screen and (max-width: map-get($breakpoints, $brekpoint))
+        @content
+
+body
+    font-family: "Rubik", sans-serif
+    font-optical-sizing: auto
+    font-weight: 300
+
+@import './components/_navbar'
+@import './components/_profile'
+@import './components/_content'
+    
+    

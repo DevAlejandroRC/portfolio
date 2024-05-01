@@ -1,0 +1,49 @@
+{
+  "title":"Portfolio",
+  "profile":{
+    "job": "Developer",   
+    "location": "Locatión",
+    "email": "Email"
+  },
+  "main": {
+    "home": "Home",
+    "projects": "Projects",   
+    "skills": "Skills"   
+  },
+  "about":{
+    "title": "About",
+    "passionate": "Developer with a passion for technological innovation!",
+    "objective": "Professional Objective",
+    "description": "Passionate Systems Engineer dedicated to driving technological development through cutting-edge solutions. I excel in designing and executing exceptional web experiences, combining technical skills with effective communication and a results-oriented approach.",
+    "more": "Want to know more?",
+    "download": "Download my CV!"
+  },
+  "filter":{
+    "showcases":{
+      "title": "Showcases",
+      "view": "view...",
+      "filters": "Project filters",
+      "progress": "Project status...",
+      "category": "Project category...",
+      "technology": "Peoject technology...",
+      "search": "Search project..."
+    },
+    "skills":{
+      "title": "Skills",
+      "filters": "Filters",
+      "certified": "certified",
+      "completed": "completed",
+      "progress": "in progress",
+      "scheduled": "scheduled" 
+    }
+  },
+  "loader": "Loading ...",
+  "error":{
+    "wrong": "Something went wrong...",
+    "message": "The content you are trying to access does not exist",
+    "response": "Not fount",
+    "serverResponse":"No response received from the server",
+    "requestProcessing":"An error occurred while processing the request",
+    "request":"An unexpected error occurred during the request"
+  }
+}

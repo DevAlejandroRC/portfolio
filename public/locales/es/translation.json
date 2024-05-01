@@ -1,0 +1,49 @@
+{
+  "title":"Portafolio",
+  "profile":{
+    "job": "Desarrollador",   
+    "location": "Ubicación",
+    "email": "Correo"
+  },
+  "main": {
+    "home": "Inicio",
+    "projects": "Proyectos",   
+    "skills": "Habilidades"   
+  },
+  "about":{
+    "title": "Descripción",
+    "passionate": "¡Desarrollador con pasión por la innovación tecnológica!",
+    "objective":"Objetivo Profesional",
+    "description": "Apasionado Ingeniero de Sistemas dedicado a impulsar el desarrollo tecnológico mediante soluciones de vanguardia. Me destaco en el diseño y ejecución de experiencias web excepcionales, combinando habilidades técnicas con una comunicación efectiva y un enfoque centrado en resultados.",
+    "more": "¿Quieres saber más?",
+    "download": "¡Descarga mi CV!"
+  },
+  "filter":{
+    "showcases":{
+      "title": "Proyectos",
+      "view": "ver...",
+      "filters": "Filtros de proyectos",
+      "progress": "Estado de proyectos...",
+      "category": "Categoría de proyectos...",
+      "technology": "Tecnología de proyectos...",
+      "search": "Buscar proyecto..."
+    },
+    "skills":{
+      "title": "Habilidades",
+      "filters": "Filtros",
+      "certified": "certificado",
+      "completed": "completado",
+      "progress": "en progreso",
+      "scheduled": "programado" 
+    }
+  },
+  "loader": "Cargando ...",
+  "error":{
+    "wrong": "Algo salio mal...",
+    "message": "El contenido al que inteta acceder no existe",
+    "response": "Sin información",
+    "serverResponse":"No se recibió respuesta del servidor.",
+    "requestProcessing":"Ocurrió un error al realizar la solicitud.",
+    "request":"Ocurrió un error inesperado en la solicitud."
+  }
+}

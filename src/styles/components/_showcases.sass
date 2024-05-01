@@ -1,0 +1,105 @@
+&__filters-showcases
+    display: flex
+    flex-direction: column
+    padding: 5px
+    width: 100%
+    background: $centered
+    border-radius: 5px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    z-index: 2
+&__filter-search
+    padding: 10px
+    color: $secondary
+    border: none
+    border-radius: 5px
+    &:focus
+        outline: none
+&__menu-showcase
+    display: flex
+    flex-direction: column
+    margin-top: 5px
+&__mshowcase-title
+    color: $highlight
+    text-align: center
+    font-size: 1.5rem
+    cursor: pointer
+&__showcase-button
+    appearance: none
+&__none-toggle-showcase
+    display: none
+&__block-toggle-showcase
+    display: block
+&__filter-select
+    display: flex
+    justify-content: space-evenly
+    padding-bottom: 5px
+    @include mobil-firts(md)
+        flex-direction: column
+
+&__card-showcase
+    display: flex
+    flex-direction: column
+    margin: 5px
+    width: 290px
+    cursor: pointer
+&__showcase-header
+    position: relative
+    height: 280px
+&__showcase-status
+    position: absolute
+    margin-top: 0
+    right: 0 
+    padding: 5px
+    color: $highlight
+    background: $centered
+&__showcase-photo
+    width: 100%
+    height: 100%      
+&__showcase-body
+    background: $relax
+    padding: 5px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    z-index: 1
+&__showcase-name
+    margin: 0
+    line-height: 2rem
+    font-size: 1.6rem
+    color: $highlight
+&__showcase-info
+    display: flex
+    justify-content: space-between
+    align-items: center
+&__showcase-page
+    color: $secondary
+    font-size: 1rem
+    text-decoration: none
+&__showcase-category
+    color: $primary
+    font-size: 1.2rem
+&__showcase-overview
+    margin-top: 0
+    padding: 5px
+    color: $highlight
+    font-size: .9rem
+&__showcase-footer
+    background: $relax
+    border-radius: 0 0 10px 10px
+    overflow: auto
+&__showcase-technology
+    display: flex
+    justify-content: space-evenly
+    padding: 5px
+&__showcase-tag
+    padding: 3px
+    margin: 2px
+    min-width: 70px
+    color: $primary
+    text-align: center
+    font-size: .8rem
+    background: $centered 
+    border: 2px solid $secondary
+    border-radius: 5px
+    &:hover
+        background: $secondary 
+        border: 2px solid $primary
+        

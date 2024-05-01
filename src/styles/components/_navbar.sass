@@ -1,0 +1,32 @@
+.menu
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 5px
+    &__items
+        display: flex
+        justify-content: space-around
+        padding: 5px
+        text-align: center
+        font-size: 2rem
+        list-style: none
+        span
+            display: inline-block
+            margin: 5px
+            padding: 5px
+            width: 50px
+            height: 50px
+            color: $highlight
+            line-height: 3.5rem
+            background: $centered
+            border-radius: 5px
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px
+            &:hover
+                background: $secondary
+                color: $primary
+
+    &__options
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        width: 100%
