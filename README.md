@@ -7,6 +7,9 @@
 
 - [website](https://danielromero-porfoliocode.web.app/)
 - [api](https://github.com/DevAlejandroRC/ApiPortfolio.git)
+  
+>[!NOTE]
+>Although the api works with my website, it will not always be enabled, at least for the moment, if you see my website with database communication error contact me, to enable it :smile:.
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Technologies used
 ![TS](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
