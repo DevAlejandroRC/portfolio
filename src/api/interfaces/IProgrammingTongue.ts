@@ -1,5 +1,5 @@
 export interface IProgrammingTongue{
     name: string;
-    text: string;
+    status: string;
     image: string;
 }

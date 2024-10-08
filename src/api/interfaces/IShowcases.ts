@@ -5,5 +5,5 @@ export interface IShowcases{
     url: string;
     category: string;
     progress: string;
-    technology: string;
+    stack: string;
 }

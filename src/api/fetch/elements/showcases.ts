@@ -7,7 +7,7 @@ const elements = (project:IShowcases) => ({
     url: project.url,
     category: project.category,
     progress: project.progress,
-    technology: project.technology
+    technology: project.stack
 });
 
 export default elements;

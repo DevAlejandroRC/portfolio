@@ -31,10 +31,11 @@
     "skills":{
       "title": "Habilidades",
       "filters": "Filtros",
-      "certified": "certificado",
-      "completed": "completado",
-      "progress": "en progreso",
-      "scheduled": "programado" 
+      "beginner": "principiante",
+      "basic": "básico",
+      "intermediate": "intermedio",
+      "advanced": "avanzado", 
+      "expert": "experto"
     }
   },
   "loader": "Cargando ...",

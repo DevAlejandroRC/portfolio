@@ -1,2 +1,2 @@
-export const showcaseUrl = 'https://apiportfolio-421917.uc.r.appspot.com/api/showcases';
-export const programmingUrl = 'https://apiportfolio-421917.uc.r.appspot.com/api/programmingLanguage'
+export const showcaseUrl = 'https://apiportfolio-shy-pond-2316.fly.dev/api/projects';
+export const programmingUrl = 'https://apiportfolio-shy-pond-2316.fly.dev/api/technology'

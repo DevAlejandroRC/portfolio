@@ -23,10 +23,10 @@ const Skills:React.FC = () =>{
     const idioms = useTongueTechnologies(tongue);
 
     const filters = [
-        t('filter.skills.certified'), 
-        t('filter.skills.completed'), 
-        t('filter.skills.progress'), 
-        //t('filter.skills.scheduled')
+        t('filter.skills.beginner'), 
+        t('filter.skills.basic'), 
+        t('filter.skills.advanced'), 
+        t('filter.skills.expert')
     ];
     
     const {data, loading, error} = idioms;
